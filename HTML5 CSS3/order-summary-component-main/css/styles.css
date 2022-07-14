@@ -1,0 +1,126 @@
+:root {
+    --paleBlue: hsl(225, 100%, 94%);
+    --brightBlue: hsl(245, 75%, 52%);
+
+    --veryPaleBlue: hsl(225, 100%, 98%);
+    --desaturatedBlue: hsl(224, 23%, 55%);
+    --darkBlue: hsl(223, 47%, 23%);
+
+    --white: #ffffff;
+    --black: #000000;
+
+    --fontFamily: 'Red Hat Display', sans-serif;
+
+    /* mobile: 375px */
+}
+
+html { 
+    box-sizing: border-box; 
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fontFamily);
+    background-color: var(--veryPaleBlue);
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+}
+@media (min-width: 768px){
+    body {
+        background-image: none;
+        background-image: url(../images/pattern-background-desktop.svg);
+    }
+}
+h1 {
+    font-weight: 900;
+    margin-top: 4rem;
+}
+h2 {
+    font-weight: 900;
+}
+h2, p {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+ h1, h2, h3, p{
+    text-align: center; 
+}
+p {
+    line-height: 1.5;
+    margin: auto 2rem;
+}
+.shadow {
+    -webkit-box-shadow: 1px 22px 36px -7px rgba(46,74,117,0.29);
+    -moz-box-shadow: 1px 22px 36px -7px rgba(46,74,117,0.29);
+    box-shadow: 1px 22px 36px -7px rgba(46,74,117,0.29);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.box {
+   background-color: var(--white);
+   width: 337.5px;
+   overflow: hidden;
+   margin: 0 auto;
+   border-radius: 2rem;
+}
+.box__plan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: var(--veryPaleBlue);
+    margin: 2rem;
+    border-radius: 1rem;
+}
+.box__plan a:hover {
+    text-decoration: none;
+    color: var(--brightBlue);
+    font-weight: 700;
+}
+.box__plan__image {
+    margin: 2rem 0;
+}
+.box__payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box__payment a{
+    text-decoration: none;
+}
+.box__payment__accept {
+    background-color: var(--darkBlue);
+    color: var(--veryPaleBlue);
+    padding: 2rem 7rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+.box__payment__accept:hover {
+    background-color: var(--brightBlue);
+}
+.box__payment__cancel {
+    color: var(--black);
+    padding: 2rem 0;
+    font-weight: 700;
+}
+
+.box__payment__cancel:hover {
+    font-weight: 900;
+}
+.attribution {
+    text-align: center;
+}
