@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github repository](https://github.com/AgusSaMac/agussamac.github.io/tree/main/HTML5%20CSS3/order-summary-component-main)
+- Live Site URL: [Order Summary component](https://agussamac.github.io/HTML5%20CSS3/order-summary-component-main/index.html)
 
 ## My process
 
