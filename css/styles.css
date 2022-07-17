@@ -23,22 +23,22 @@ html {
 
 body {
     font-size: calc(1rem + 1vw);
-    background-color: var(--light);
+    background: radial-gradient(circle, rgba(122,124,184,1) 0%, rgba(91,94,166,1) 50%, rgba(62,64,116,1) 100%);
     line-height: 1.5;
     font-family: var(--font-family);
     color: var(--white);
 }
 
 h1 {
-    font-size: 3.8rem;
+    font-size: clamp(2.2rem, 6vw, 3.8rem);
 }
 
 h2 {
-    font-size: 2.2rem;
+    font-size: clamp(1.8rem, 3vw, 2.2rem);
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, 2.5vw, 1.8rem);
 }
 
  h1, h2, h3 {
@@ -74,5 +74,14 @@ a {
 }
 
 img {
+    width: 100%;
+}
+.footer {
+    background-color: var(--dark3);
+    text-align: center;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
