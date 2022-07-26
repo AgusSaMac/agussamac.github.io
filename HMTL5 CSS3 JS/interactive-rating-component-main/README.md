@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/AgusSaMac/agussamac.github.io/tree/main/HMTL5%20CSS3%20JS/interactive-rating-component-main)
+- Live Site URL: [Live site](https://agussamac.github.io/HMTL5%20CSS3%20JS/interactive-rating-component-main/index.html)
 
 ## My process
 
