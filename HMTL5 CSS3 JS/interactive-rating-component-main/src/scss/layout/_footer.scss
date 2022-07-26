@@ -1,0 +1,11 @@
+@use 'helpers/variables' as v;
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: v.$lightGrey;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}

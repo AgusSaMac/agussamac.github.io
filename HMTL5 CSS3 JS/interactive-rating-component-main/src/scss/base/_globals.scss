@@ -1,0 +1,41 @@
+@use 'helpers/variables' as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$family;
+    font-size: 1.5rem;
+    background-color: v.$veryDarkBlue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: v.$white;
+}
+
+p {
+    color: v.$lightGrey;
+}
+
+.title {
+    font-size: clamp(1rem, 10vw, 2rem);
+}
+
+.container {
+    width: 90vw;
+    max-width: 43rem;
+    padding: 3rem;
+    background-color: v.$darkBlue;
+    border-radius: 1rem;
+}

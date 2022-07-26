@@ -1,0 +1,21 @@
+@use 'helpers/variables' as v;
+
+.thank-you-card {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: min-content;
+    }
+}
+
+.thank-you-card__rated {
+    background-color: v.$mediumGrey;
+    color: v.$orange;
+    padding: 1rem;
+    border-radius: 5rem;
+}
