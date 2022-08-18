@@ -81,7 +81,5 @@ img {
     text-align: center;
     font-size: clamp(1.2rem, 2vw, 1.5rem);
     padding: 2rem;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
