@@ -1,0 +1,79 @@
+@use 'helpers/variables' as v;
+@use 'helpers/mixins' as m;
+
+.container {
+    max-width: 34rem;
+    background-color: v.$darkDesaturatedBlue;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+
+    @include m.desktop {
+        @include m.grid(2, 1rem);
+        max-width: 120rem;
+        text-align: left;
+    }
+    
+    .image {
+        width: auto;
+        height: 25rem;
+        background-image: url('../../images/image-header-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        @include m.desktop {
+            height: 46.841rem;
+            background-image: url('../../images/image-header-mobile.jpg');
+        }   
+        .overlay {
+            width: 100%;
+            height: 100%;
+            background-color: v.$softViolet;
+            opacity: 0.6;
+        }
+    }
+    h2, p {
+        margin: 0;
+    }
+}
+
+.container-text {
+    padding: 4rem 3rem;
+    @include m.desktop {
+        margin: 2rem 0 2rem 0;
+        padding: 6rem 8rem;
+    }
+    h1{
+        margin: 0;
+        @include m.desktop {
+            font-size: 4.1rem;
+        }
+    }
+    span {
+        color: v.$softViolet;
+    }
+}
+
+.main-text {
+    padding: 1rem;
+    line-height: 1.8;
+    color: v.$slightlyTransparentWhite;
+    @include m.desktop {
+        text-align: left;
+        padding: 3rem 0;
+    }
+}
+
+.statistics{
+    @include m.desktop{
+        @include m.grid(3, 10rem);
+    }
+}
+
+.statistic {
+    padding-top: 3rem;
+    p {
+        color: v.$SlightlyTansparentWhite;
+    }
+}

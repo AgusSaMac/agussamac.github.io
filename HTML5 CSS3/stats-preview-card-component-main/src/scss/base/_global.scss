@@ -1,0 +1,29 @@
+@use 'helpers/variables' as v;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body {
+    background-color: v.$veryDarkBlue;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: v.$fontSize;
+}
+
+h1, h2 {
+    font-family: v.$fontFamily1;
+    color: v.$white;
+}
+p {
+    font-family: v.$fontFamily2;
+}
