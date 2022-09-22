@@ -1,0 +1,40 @@
+@use 'helpers/variables' as v;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    height: 100vh;
+    font-size: v.$fontSize;
+    background-color: v.$veryDarkBlue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+h1 {
+  text-align: left;
+  font-size: larger;
+  font-weight: v.$bold;
+  }
+a {
+  color: v.$white;
+  text-decoration: none;
+  &:hover {
+    color: v.$cyan;
+  }
+}
+p {
+  font-weight: v.$thin;
+}
+
+span {
+  color: v.$white;
+  font-weight: v.$thin;
+}
