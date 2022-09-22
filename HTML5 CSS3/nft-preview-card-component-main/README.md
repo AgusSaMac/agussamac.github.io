@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/AgusSaMac/agussamac.github.io/tree/main/HTML5%20CSS3/nft-preview-card-component-main](https://github.com/AgusSaMac/agussamac.github.io/tree/main/HTML5%20CSS3/nft-preview-card-component-main)
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: [https://agussamac.github.io/HTML5%20CSS3/nft-preview-card-component-main/index.html]([https://your-](https://agussamac.github.io/HTML5%20CSS3/nft-preview-card-component-main/index.html))
 
 ## My process
 
