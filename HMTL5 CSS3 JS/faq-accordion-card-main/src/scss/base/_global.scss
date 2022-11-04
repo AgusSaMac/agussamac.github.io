@@ -1,0 +1,28 @@
+@use 'helpers/variables' as v;
+@use 'helpers/mixins' as m;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background: v.$softBlue;
+    background: linear-gradient(0deg, v.$softBlue 0%, v.$softViolet 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

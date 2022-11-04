@@ -1,0 +1,8 @@
+@use 'helpers/variables' as v;
+
+/** Media Queries **/
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}

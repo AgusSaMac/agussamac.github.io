@@ -1,0 +1,90 @@
+@use 'helpers/variables' as v;
+@use 'helpers/mixins' as m;
+
+.card {
+    background-color: v.$white;
+    width: 32.7rem;
+    height: 56.8rem;
+    background-image: url(../../images/bg-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position:top;
+    border-radius: 1rem;
+
+    // box shadow
+
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+
+    @include m.desktop{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 98rem;
+        height: 50rem;
+        background-image: url(../../images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: -59rem -32rem;
+        margin: 0 auto;
+        border-radius: 2.3rem;
+
+    }
+}
+
+.accordion {
+    margin: 24px;
+    font-weight: 300;
+    @include m.desktop{
+        margin: auto 10rem;
+    }
+}
+
+.accordion-title {
+    padding-top: 12rem;
+    text-align: center;
+    @include m.desktop{
+        padding: 0;
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: left;
+    }
+}
+.question {
+    border-bottom: 1px solid v.$lightGrayishBlue;
+}
+.accordion-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    color: v.$veryDarkGrayishBlue;
+    h2 {
+        font-weight: 400;
+    }
+    text-align: center;
+    &:hover{
+        color: v.$softRed;
+    }
+    @include m.desktop{
+        font-size: 1rem;
+    }
+}
+
+.accordion-answer {
+    font-size: 12.5px;
+    display: none;
+}
+
+.active {
+    h2{
+        font-weight: 700;
+        color: v.$veryDarkDesaturatedBlue;
+    }
+    .accordion-answer{
+        display: block;
+        font-weight: 400;
+    }
+}

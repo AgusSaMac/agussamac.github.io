@@ -1,0 +1,14 @@
+@use 'helpers/variables' as v;
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: v.$white;
+    a {
+        text-decoration: none;
+        color: v.$white;
+        &:hover{
+            color: v.$softRed;
+        }
+    }
+}
+

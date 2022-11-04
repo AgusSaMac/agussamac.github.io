@@ -1,0 +1,34 @@
+@use 'helpers/variables' as v;
+@use 'helpers/mixins' as m;
+
+.image-top-1 {
+    display: block;
+    position: absolute;
+    width: 25rem;
+    margin-top: -13rem;
+    margin-left: 3.7rem;
+    @include m.desktop{
+        display: none;
+    }
+}
+
+.image-top-2 {
+    display: none;
+    @include m.desktop{
+        display: block;
+        margin-top: 6rem;
+        margin-left: -7.5rem;
+    }
+}
+
+.image-top{
+    overflow-x: hidden;
+}
+.image-box{
+    display: none;
+    @include m.desktop{
+        display: block;
+        margin-left: -18.5%;
+        margin-top: -48%;
+    }
+}
