@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/faq-accordion-card-solution-using-sass-html-and-javascript-BnOiD9gc6P)
+- Live Site URL: [Live Site](https://agussamac.github.io/HMTL5%20CSS3%20JS/faq-accordion-card-main/index.html)
 
 ## My process
 
