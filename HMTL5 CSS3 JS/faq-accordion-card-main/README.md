@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-This is the first challenge where I had been really working with the parent/child elements of the html and how to select them with javascript. See: [Accordion]() to see it in action. 
+This is the first challenge where I had been really working with the parent/child elements of the html and how to select them with javascript. See: [Accordion](https://codepen.io/agussamac/pen/yLEJQbv) to see it in action. 
 
 ### Continued development
 
