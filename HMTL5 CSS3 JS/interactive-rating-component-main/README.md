@@ -36,7 +36,7 @@ Users should be able to:
 - Solution URL: [Repository](https://github.com/AgusSaMac/agussamac.github.io/tree/main/HMTL5%20CSS3%20JS/interactive-rating-component-main)
 - Live Site URL: [Live site](https://agussamac.github.io/HMTL5%20CSS3%20JS/interactive-rating-component-main/index.html)
 
-## My process
+## My **process**
 
 ### Built with
 
