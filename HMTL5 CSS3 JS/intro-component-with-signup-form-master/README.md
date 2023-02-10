@@ -1,7 +1,7 @@
 ![Intro Component and signup form](images/Image_desktop.png)
 # Frontend Mentor | Intro component with sign up form solution By Agustin Sanchez
-<p align="center">Solution URL: <a src="https://github.com/AgusSaMac/agussamac.github.io/tree/main/HMTL5%20CSS3%20JS/intro-component-with-signup-form-master">Intro component with sighnup form master</a> </p>
-<p align="center">Live Site URL: <a src="">frontendmentor.agustinsanchez.dev/Intro component with signup form master</a> </p>
+<p align="center">Solution URL: <a src="https://github.com/AgusSaMac/agussamac.github.io/tree/main/HMTL5%20CSS3%20JS/intro-component-with-signup-form-master">Github Repository</a> </p>
+<p align="center">Live Site URL: <a src="https://frontendmentor.agustinsanchez.dev/HMTL5%20CSS3%20JS/intro-component-with-signup-form-master/index.html">Live Site</a> </p>
 
 ## Overview
 
