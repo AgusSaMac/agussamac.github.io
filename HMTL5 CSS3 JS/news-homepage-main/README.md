@@ -1,9 +1,9 @@
-![News Homepage image](assets/images/Screenshot_29_03_2023.jpeg)
+![Alt text](../../images/Screenshot_news_homepage_main_29_03_2023.jpeg)
 
 # Frontend Mentor - News homepage
 
-<p align="center" >Solution URL: <a href="#">Github Repository</a></p>
-<p align="center" >LIve Site URL: <a href="#">Github Pages</a></p>
+<p align="center" >Solution URL: <a href="https://github.com/AgusSaMac/agussamac.github.io/tree/main/HMTL5%20CSS3%20JS/news-homepage-main">Github Repository</a></p>
+<p align="center" >LIve Site URL: <a href="https://agussamac.github.io/">Github Pages</a></p>
 
 
 # Table of contents
