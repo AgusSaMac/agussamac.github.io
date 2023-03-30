@@ -189,7 +189,7 @@ footer a:hover {
     }
     
     .feed img {
-        content: url(../assets/images/image-web-3-desktop.jpg);
+        content: url(assets/images/image-web-3-desktop.jpg);
         grid-area: image;
     }
 }
