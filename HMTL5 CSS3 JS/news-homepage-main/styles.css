@@ -316,3 +316,11 @@ footer a:hover {
     margin: 0;
     color: var(--grayish-blue);
 }
+
+.under__title {
+    cursor: pointer;
+}
+
+.under__title:hover {
+    color: var(--soft-red);
+}
