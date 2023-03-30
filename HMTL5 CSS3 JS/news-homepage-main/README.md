@@ -52,7 +52,7 @@ the next part was to start working with the html, the project was divided in fou
 - header: 
   - logo
   - menu
-- main:
+- feed section:
   - principal/hero image
   - main title / main article
   - abstract
@@ -147,12 +147,14 @@ Now on to desktop, even if the challenge declares the desktop limit to be 1440px
 
 As with the mobile development the work was from top to bottom, so the first step was to get rid of the hamburger menu and all the styling for it.
 
-due to the fact that all the sections are contained within the body, it was better if the layout was defined in that tag, for it the use of grid areas was optimal.
+To center the page the margin at top and bottom was left in 1rem while the left and right was set to auto. Now it was time to set up the layout for this the use of grid areas was perfect, and the declaration of the same was done in the main selector.
 
 ```
 @media (min-width:750px) {
     body {
         margin: 1rem auto;
+    }
+    main {
         display: grid;
         grid-template-areas: 
         "head head"
@@ -165,9 +167,9 @@ due to the fact that all the sections are contained within the body, it was bett
     }
 }
 ```
-As you can see the entire layour was divided in two columns and four rows, taking into consideration  the layout of the main and the lateral(side) elements the columns were devided in 66% and 33%.
+As you can see the entire layour was divided in two columns and four rows, taking into consideration  the layout of the feed(main) and the lateral(side) elements the columns were devided in 66% and 33%.
 
-To save some code lines the grid area for each element was declared within the original its original selector, it doesn't cause a problem with the mobile layout because the grid is only active in the destop setting.
+To save some code lines the grid area for each element was declared within its original selector, it doesn't cause a problem with the mobile layout because the grid is only active in the destop setting.
 
 ## Javascript
 
