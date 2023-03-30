@@ -3,7 +3,7 @@
 # Frontend Mentor - News homepage
 
 <p align="center" >Solution URL: <a href="https://github.com/AgusSaMac/agussamac.github.io/tree/main/HMTL5%20CSS3%20JS/news-homepage-main">Github Repository</a></p>
-<p align="center" >LIve Site URL: <a href="https://agussamac.github.io/HMTL5%20CSS3%20JS/news-homepage-main/index.html">Github Pages</a></p>
+<p align="center" >LIve Site URL: <a href="https://agussamac.github.io/HMTL5%20CSS3%20JS/news-homepage-main/index.html#">Github Pages</a></p>
 
 
 # Table of contents
